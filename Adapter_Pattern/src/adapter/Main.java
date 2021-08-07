@@ -13,7 +13,9 @@ public class Main {
 		connect(hairDryer);
 		
 		Cleaner cleaner = new Cleaner();
-		connect(cleaner);
+		//connect(cleaner);
+		Electronic110V apater = new SocketAdapter(cleaner);
+		connect(apater);
 	}
 	
 	//ÄÜ¼¾Æ®
