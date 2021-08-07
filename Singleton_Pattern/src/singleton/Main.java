@@ -8,6 +8,6 @@ public class Main {
 		SocketClient aClient = aClazz.getSoketClient();
 		SocketClient bClient = bClazz.getSoketClient();
 
-		System.out.println(aClient.equals(bClient));
+		System.out.println("객체는 동일한가 ? : "+aClient.equals(bClient));
 	}
 }
