@@ -1,4 +1,4 @@
-package adapter;
+package Adapter;
 
 public class Cleaner implements Electronic220V {
 	@Override
