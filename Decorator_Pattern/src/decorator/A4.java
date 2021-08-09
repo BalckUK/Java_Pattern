@@ -1,4 +1,4 @@
-package decorator_pattern;
+package decorator;
 
 public class A4 extends AudiDecorator {
 
